@@ -52,8 +52,10 @@ li:hover {
     cursor: pointer;
 }
 .nav-menu-dot {
-    color: #494e62;
     margin: 0 14px;
+
+    color: #494e62;
+    vertical-align: 3px;
 }
 
 .content-slider {
@@ -62,6 +64,12 @@ li:hover {
     background-color: #f06c64;
     border-bottom: 6px solid #ea676b;
 }
+.slider-wrapper {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+
 
 .content-services {
     height: 500px;
