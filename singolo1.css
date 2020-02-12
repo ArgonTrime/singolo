@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    font-family: 'Lato', 'Arial', sans-serif;
+}
 .header-wrapper {
     margin: 0 auto;
 
@@ -24,6 +27,8 @@ header {
 h1 {
     color: #fff;
     text-transform: uppercase;
+
+    font-weight: 900;
 }
 .header-logo, 
 .header-dot {
@@ -39,6 +44,7 @@ li {
 
     color: #fff;
     text-transform: uppercase;
+    font-weight: 900;
 }
 .nav-menu,
 li:hover {
