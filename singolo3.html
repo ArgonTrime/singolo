@@ -16,25 +16,26 @@
                     <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
                 </div>
                 <div class="get-a-quote__form">
-                    <form action="" class="form">
-                        <input type="text" required placeholder="Name (Required)">
-                        <input type="email" required placeholder="Email (Required)">
-                        <input type="text" placeholder="Subject">
-                        <textarea name="" id="" placeholder="Describe your project in detail..."></textarea>
+                    <form action="#" class="form" method="POST">
+                        <input type="text" name="name" required placeholder="Name (Required)">
+                        <input type="email" name="email" required placeholder="Email (Required)">
+                        <input type="text" name="subject" placeholder="Subject">
+                        <textarea name="describe" placeholder="Describe your project in detail..."></textarea>
+                        <input type="submit" name="submit" value="Send">
                     </form>
                     <div class="get-a-quote__form__description">
                         <h3>Contact Information</h3>
                         <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
                         <div class="contact-info">
-                            <span>
+                            <span class="contact-info__item">
                                 <img src="assets/images/icons/location.png" alt="location">
-                                Elm St. 14/05 Lost City
+                                <a href="#">Elm St. 14/05 Lost City</a>
                             </span>
-                            <span>
+                            <span class="contact-info__item">
                                 <img src="assets/images/icons/phone-small.png" alt="phone">
                                 <a href="tel:03528 331 86 35">03528 331 86 35</a>
                             </span>
-                            <span>
+                            <span class="contact-info__item">
                                 <img src="assets/images/icons/mail.png" alt="email">
                                 <a href="mailto:info@singolo.com">info@singolo.com</a>
                             </span>
@@ -44,5 +45,36 @@
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="wrapper_footer">
+                <div class="footer__copy">
+                    &copy; Copyright 2013
+                </div>
+                <div class="footer__links">
+                    <span class="footer__links__social-ico_item">
+                        <a href="#">
+                            <img src="assets/images/icons/facebook.png" alt="facebook">
+                        </a>   
+                    </span>
+                    <span class="footer__links__social-ico_item">
+                        <a href="#">
+                            <img src="assets/images/icons/google+.png" alt="google+">
+                        </a>
+                    </span>
+                    <span class="footer__links__social-ico_item">
+                        <a href="#">
+                            <img src="assets/images/icons/twitter.png" alt="twitter">
+                        </a>
+                    </span>
+                    <span class="footer__links__social-ico_item">
+                        <a href="#">
+                            <img src="assets/images/icons/linkedin.png" alt="linkedin">
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

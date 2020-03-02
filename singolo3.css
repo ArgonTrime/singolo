@@ -31,7 +31,7 @@ h2 {
 }
 .get-a-quote__description
 p {
-    padding: 18px 0 48px 0;
+    padding: 18px 0 41px 0;
 
     font-size: 18px;
     font-weight: 300;
@@ -46,36 +46,106 @@ p {
     display: flex;
     flex-direction: column;
     margin-right: 20px;
-
-    font-size: 12px;
-    font-weight: normal;
 }
 .form
 input,
 .form
 textarea {
-    width: 620px;
+    width: 595px;
     margin-bottom: 16px;
-    padding: 15px;
+    padding: 12px;
 
     background-color: #d6564f;
     border: none;
     border-radius: 5px;
+    -webkit-border-radius: 5px;
 
     color: #f0d8d9;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: 'Lato', 'Arial', sans-serif;
 }
 .form
-input::placeholder,
+input[type="submit"] {
+    width: 80px;
+    margin-bottom: 11px;
+}
 .form
-textarea::placeholder {
+input::-webkit-input-placeholder,
+.form
+textarea::-webkit-input-placeholder {
     color: #ec7f80;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: 'Lato', 'Arial', sans-serif;
 }
 .form
 textarea {
     resize: none;
-    height: 202px;
+    height: 178px;
+}
+
+.get-a-quote__form__description {
+    color: #f0d8d9;
+}
+.get-a-quote__form__description
+h3 {
+    font-size: 18px;
+    font-weight: 900;
+}
+.get-a-quote__form__description
+p {
+    padding-top: 10px;
+
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.8;
+    letter-spacing: -0.2px;
 }
 .contact-info {
     display: flex;
     flex-direction: column;
+    margin-top: 25px;
+
+    font-size: 12px;
+    font-weight: normal;
+}
+.contact-info__item {
+    padding: 0 0 0 2px;
+    margin-bottom: 6px;
+}
+.contact-info__item
+a {
+    padding-left: 10px;
+
+    text-decoration: none;
+    color: #f0d8d9;
+}
+
+/* footer */
+
+.footer {
+    background-color: #2d303a;
+}
+.wrapper_footer {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__copy {
+    padding: 30px 0 31px 0;
+
+    color: #666d89;
+    font-size: 12px;
+    font-weight: normal;
+}
+.footer__links {
+    padding-top: 20px;
+}
+.footer__links__social-ico_item {
+    padding-left: 4px;
+}
+.footer__links__social-ico_item:hover {
+    cursor: pointer;
 }
