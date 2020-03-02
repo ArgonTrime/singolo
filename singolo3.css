@@ -71,6 +71,11 @@ input[type="submit"] {
     margin-bottom: 11px;
 }
 .form
+input[type="submit"]:hover {
+    color:#f06c64;
+    background-color: #f0d8d9;
+}
+.form
 input::-webkit-input-placeholder,
 .form
 textarea::-webkit-input-placeholder {
