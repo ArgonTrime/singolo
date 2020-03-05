@@ -1,1 +1,1 @@
-# singolo
+# [singolo](https://argontrime.github.io/singolo/)
