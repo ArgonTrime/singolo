@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="wrapper">
             <div class="wrapper_header">
                 <div class="logo">
@@ -18,15 +18,15 @@
                 </div>
                 <nav class="header__navigation">
                     <ul class="navigation">
-                        <li class="navigation__item navigation__item_active">home</li>
+                        <a href="#home" class="scroll-to"><li class="navigation__item navigation__item_active">home</li></a>
                         <li class="navigation__item_dot">.</li>
-                        <li class="navigation__item">services</li>
+                        <a href="#services" class="scroll-to"><li class="navigation__item">services</li></a>
                         <li class="navigation__item_dot">.</li>
-                        <li class="navigation__item">portfolio</li>
+                        <a href="#portfolio" class="scroll-to"><li class="navigation__item">portfolio</li></a>
                         <li class="navigation__item_dot">.</li>
-                        <li class="navigation__item">about</li>
+                        <a href="#about" class="scroll-to"><li class="navigation__item">about</li></a>
                         <li class="navigation__item_dot">.</li>
-                        <li class="navigation__item">contact</li>
+                        <a href="#contact" class="scroll-to"><li class="navigation__item">contact</li></a>
                     </ul>
                 </nav>
             </div>
@@ -53,7 +53,7 @@
             </div>
         </div>
         
-        <section class="services">
+        <section class="services" id="services">
             <div class="wrapper">
                 <div class="wrapper_services">
                     <div class="services__description">
@@ -124,7 +124,7 @@
             </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="wrapper">
                 <div class="wrapper_portfolio">
                     <div class="portfolio__description">
@@ -178,7 +178,7 @@
                 </div>
             </div>
         </section>
-        <section class="about-us">
+        <section class="about-us" id="about">
             <div class="wrapper">
                 <div class="wrapper_about-us">
                     <div class="about-us__description">
@@ -284,7 +284,7 @@
             </div>
         </section>
 
-        <section class="get-a-quote">
+        <section class="get-a-quote" id="contact">
             <div class="wrapper">
                 <div class="wparpper_get-a-quote">
                     <div class="get-a-quote__description">
@@ -354,5 +354,6 @@
             </div>
         </footer>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
