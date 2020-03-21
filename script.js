@@ -33,19 +33,21 @@ PICTURESTAGS.forEach(item => {
 });
 
 // form submit
+const FORM = document.querySelector('.form');
 const SENDFORM = document.getElementById('sendForm');
 const CLOSEWINDOW = document.getElementById('closeWindow');
 
 SENDFORM.addEventListener('click', () => {
     const subjText = document.getElementById('subjText').value.toString();
     const descrText = document.getElementById('descrText').value.toString();
-    document.getElementById('result-subject').innerText = subjText ? " " + subjText: " Without subject";
-    document.getElementById('result-description').innerText = descrText ? " " + descrText: " Without description";
+    document.getElementById('result-subject').innerText = subjText ? ' ' + subjText: ' Without subject';
+    document.getElementById('result-description').innerText = descrText ? ' ' + descrText: ' Without description';
     document.getElementById('submitWindow').classList.remove('hidden');
 });
 
 CLOSEWINDOW.addEventListener('click', () => {
-    document.getElementById('result-subject').innerText = "";
-    document.getElementById('result-description').innerText = "";
+    document.getElementById('result-subject').innerText = '';
+    document.getElementById('result-description').innerText = '';
     document.getElementById('submitWindow').classList.add('hidden');
+    FORM.reset();
 });
